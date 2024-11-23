@@ -5,7 +5,7 @@ WinMetrics Setup: Automated Installation and Configuration of Windows Exporter a
 # WinMetrics Setup: Automated Installation and Configuration of Windows Exporter and Prometheus
 
 ## Overview
-**WinMetrics Setup** is an automated script designed to install and configure [Windows Exporter](https://github.com/prometheus-community/windows_exporter) and [Prometheus](https://prometheus.io/) on Windows. The script sets up Prometheus to monitor metrics from Windows Exporter and itself, and manages firewall rules for secure access. This project simplifies the process by automating installation, configuration, and service management.
+**WinMetrics Setup** is an automated script designed to install and configure [Windows Exporter](https://github.com/prometheus-community/windows_exporter) and [Prometheus](https://prometheus.io/) on Windows with the dashboard [dashboard](https://grafana.com/grafana/dashboards/15620-windows-node-exporter/). The script sets up Prometheus to monitor metrics from Windows Exporter and itself, and manages firewall rules for secure access. This project simplifies the process by automating installation, configuration, and service management.
 
 ## Features
 - Downloads and installs Windows Exporter and Prometheus.
